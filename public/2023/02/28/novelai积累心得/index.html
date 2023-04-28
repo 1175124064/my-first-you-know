@@ -7,16 +7,16 @@
   
   <title>novelai积累心得 | white tiger kogenta</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="炼丹初体验 数据集说明：25张虎源太，姿势背景画风都各不相同，且没有去掉图片中的字符和水印，像素边长400，只是先试试水。使用BLIP生成tag。   训练说明：token向量数为5，约3600个step，耗时1h45min   生成说明:Sampling steps&#x3D;28，提示词相关性&#x3D;11,像素边长512   tag:kogenta-0-*,high quality   反tag:comic">
+  <meta name="description" content="炼丹初体验数据集说明：25张虎源太，姿势背景画风都各不相同，且没有去掉图片中的字符和水印，像素边长400，只是先试试水。使用BLIP生成tag。   训练说明：token向量数为5，约3600个step，耗时1h45min   生成说明:Sampling steps&#x3D;28，提示词相关性&#x3D;11,像素边长512   tag:kogenta-0-*,high quality   反tag:comic,(">
 <meta property="og:type" content="article">
 <meta property="og:title" content="novelai积累心得">
 <meta property="og:url" content="http://blog.tigerkogenta.site/2023/02/28/novelai%E7%A7%AF%E7%B4%AF%E5%BF%83%E5%BE%97/index.html">
 <meta property="og:site_name" content="white tiger kogenta">
-<meta property="og:description" content="炼丹初体验 数据集说明：25张虎源太，姿势背景画风都各不相同，且没有去掉图片中的字符和水印，像素边长400，只是先试试水。使用BLIP生成tag。   训练说明：token向量数为5，约3600个step，耗时1h45min   生成说明:Sampling steps&#x3D;28，提示词相关性&#x3D;11,像素边长512   tag:kogenta-0-*,high quality   反tag:comic">
+<meta property="og:description" content="炼丹初体验数据集说明：25张虎源太，姿势背景画风都各不相同，且没有去掉图片中的字符和水印，像素边长400，只是先试试水。使用BLIP生成tag。   训练说明：token向量数为5，约3600个step，耗时1h45min   生成说明:Sampling steps&#x3D;28，提示词相关性&#x3D;11,像素边长512   tag:kogenta-0-*,high quality   反tag:comic,(">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://blog.tigerkogenta.site/2023/02/28/novelai%E7%A7%AF%E7%B4%AF%E5%BF%83%E5%BE%97/grid-0177_1676116091805_0.jpg">
 <meta property="article:published_time" content="2023-02-28T06:38:48.000Z">
-<meta property="article:modified_time" content="2023-03-01T14:15:39.930Z">
+<meta property="article:modified_time" content="2023-04-27T08:10:41.059Z">
 <meta property="article:author" content="Yang">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://blog.tigerkogenta.site/2023/02/28/novelai%E7%A7%AF%E7%B4%AF%E5%BF%83%E5%BE%97/grid-0177_1676116091805_0.jpg">
@@ -90,22 +90,17 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <ul>
-<li><h1 id="炼丹初体验"><a href="#炼丹初体验" class="headerlink" title="炼丹初体验"></a>炼丹初体验</h1></li>
-<li><strong>数据集说明</strong>：25张虎源太，姿势背景画风都各不相同，且没有去掉图片中的字符和水印，像素边长400，只是先试试水。使用BLIP生成tag。  </li>
-<li><strong>训练说明</strong>：token向量数为5，约3600个step，耗时1h45min  </li>
-<li><strong>生成说明</strong>:Sampling steps=28，提示词相关性=11,像素边长512  </li>
-<li><strong>tag</strong>:kogenta-0-*,high quality  </li>
-<li><strong>反tag</strong>:comic,((cropped)),breast,Female sexual organs,Feminization,female,girl,lady,skirt,dress,extra legs,extra heads,extra limbs,skirt,dress,bad anatomy,bad hands,text,error,missing fingers,extra digit,fewer digits,cropped,worst quality,low quality,normal quality,jpeg artifacts,signature,watermark,username,blurry, missing arms,long neck,humpbacked,shadow,lowres,woman,Feminine,bad feet,pregnant,ugly,duplicate,extra fingers,fused fingers,too many fingers,mutated hands,poorly drawn face,mutation,malformed limbs,disfigured,extra limbs,missing arms,missing legs,extra arms,deformed legs,extra legs,hermaphrodite,transsexual,more than 2 knee,  </li>
-<li></li>
-<li>要测试训练模型的水平，首先需要知道tag的重要性  </li>
-<li><h2 id="训练结果"><a href="#训练结果" class="headerlink" title="训练结果"></a>训练结果</h2></li>
-<li><strong>500 step</strong>:  loss=0.1582759  </li>
-<li>出乎意料。本以为只训练500 step效果应该会很差，没想到却能以另一种角度展示了绘画风格。人物虽然不像虎源太，但总的看来已经类似furry的范畴，毛发学的不错，皮肤人兽结合，只是发型不够到位。这个画风或许会有一部分人喜欢呢……  </li>
-<li><h2 id=""><a href="#" class="headerlink" title="  "></a><img src="grid-0177_1676116091805_0.jpg">  </h2></li>
-<li><strong>1000 step</strong>:  loss=0.1004046  </li>
-<li>可以看到loss下降了，从生成图来看真的更像虎源太了，让我不得不赞叹这个模型的强悍本领。无论是发型还是皮肤毛发都很接近了。但是缺点仍然有很多，比如图像不够清晰，某些地方显得的很奇怪。  </li>
-</ul>
+        <h1 id="炼丹初体验"><a href="#炼丹初体验" class="headerlink" title="炼丹初体验"></a>炼丹初体验</h1><p><strong>数据集说明</strong>：25张虎源太，姿势背景画风都各不相同，且没有去掉图片中的字符和水印，像素边长400，只是先试试水。使用BLIP生成tag。  </p>
+<p><strong>训练说明</strong>：token向量数为5，约3600个step，耗时1h45min  </p>
+<p><strong>生成说明</strong>:Sampling steps=28，提示词相关性=11,像素边长512  </p>
+<p><strong>tag</strong>:kogenta-0-*,high quality  </p>
+<p><strong>反tag</strong>:comic,((cropped)),breast,Female sexual organs,Feminization,female,girl,lady,skirt,dress,extra legs,extra heads,extra limbs,skirt,dress,bad anatomy,bad hands,text,error,missing fingers,extra digit,fewer digits,cropped,worst quality,low quality,normal quality,jpeg artifacts,signature,watermark,username,blurry, missing arms,long neck,humpbacked,shadow,lowres,woman,Feminine,bad feet,pregnant,ugly,duplicate,extra fingers,fused fingers,too many fingers,mutated hands,poorly drawn face,mutation,malformed limbs,disfigured,extra limbs,missing arms,missing legs,extra arms,deformed legs,extra legs,hermaphrodite,transsexual,more than 2 knee,  </p>
+<p>要测试训练模型的水平，首先需要知道tag的重要性  </p>
+<h2 id="训练结果"><a href="#训练结果" class="headerlink" title="训练结果"></a>训练结果</h2><p><strong>500 step</strong>:  loss=0.1582759  </p>
+<p>出乎意料。本以为只训练500 step效果应该会很差，没想到却能以另一种角度展示了绘画风格。人物虽然不像虎源太，但总的看来已经类似furry的范畴，毛发学的不错，皮肤人兽结合，只是发型不够到位。这个画风或许会有一部分人喜欢呢……  </p>
+<p><img src="grid-0177_1676116091805_0.jpg">  </p>
+<p><strong>1000 step</strong>:  loss=0.1004046  </p>
+<p>可以看到loss下降了，从生成图来看真的更像虎源太了，让我不得不赞叹这个模型的强悍本领。无论是发型还是皮肤毛发都很接近了。但是缺点仍然有很多，比如图像不够清晰，某些地方显得的很奇怪。  </p>
 
       
     </div>
